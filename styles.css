@@ -1,0 +1,111 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 2rem;
+    background-color: #FFE5B4;
+}
+
+#encabezado{
+    text-align: center;
+    color: rgb(72, 71, 71);
+    max-width: 600px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-image: url(img-bckgrnd.png);
+    padding: 3rem;
+}
+
+#encabezado h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#formularioCompra{
+    background-color: #3a5aa0;
+    border: none;
+    margin: 2rem auto;
+    padding: 2rem 4rem;
+    max-width: 600px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#formularioCompra input{
+    display: block;
+    margin-bottom: 1rem;
+    width: 95%;
+    height: 1.8rem;
+    border: none;
+    background-color: rgb(190, 205, 218);
+    border-radius: 5px;
+    color:rgb(54, 53, 51);
+    font-size: 1rem;
+    padding: .4rem;
+}
+
+#formularioCompra select{
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    height: 1.8rem;
+    border: none;
+    background-color: rgb(190, 205, 218);
+    border-radius: 5px;
+    color: rgb(54, 53, 51);
+    font-size: 1rem;
+}
+
+#formularioCompra label{
+    color: antiquewhite;
+}
+
+.btn-enviarPedido,
+.boxCompra button{
+    border: none;
+    background-color: rgb(50, 114, 170);
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: antiquewhite;
+    border-radius: 3px;
+    transition: all .3s;
+}
+
+.btn-enviarPedido:hover,
+.boxCompra button:hover{
+    background-color: rgb(216, 203, 185);
+    color: rgb(50, 114, 170);
+}
+
+.boxCompra{
+    padding: 2rem;
+    background-color: #3a5aa0;
+    border-radius: 5px;
+    position: absolute;
+    left: 2.5rem;
+    height: 90%;
+    opacity: 0;
+    transition: opacity, .7s;
+    color: antiquewhite;
+    line-height: 3rem;
+}
+
+.boxCompra h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.boxCompra button{
+    width: fit-content;
+    padding: 1rem 2rem;
+}
